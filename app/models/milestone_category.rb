@@ -1,0 +1,2 @@
+class MilestoneCategory < ApplicationRecord
+end
