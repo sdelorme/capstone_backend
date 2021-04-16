@@ -194,3 +194,257 @@ milestone = Milestone.new(description: "May take a few steps without holding on"
 milestone.save
 milestone = Milestone.new(description: "May stand alone", stage_id: 5, milestone_categories_id: 4)
 milestone.save
+
+milestone = Milestone.new(description: "Likes to hand things to others as play", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "May have temper tantrums", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "May be afraid of strangers", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Shows affection to familiar people", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Plays simple pretend, such as feeding a doll", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "May cling to caregivers in new situations", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Points to show others something interesting", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Explores alone but with parent close by", stage_id: 6, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Says several single words", stage_id: 6, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Says and shakes head 'no'", stage_id: 6, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Points to show someone what they want", stage_id: 6, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Knows what ordinary things are for; for example, telephone, brush, spoon", stage_id: 6, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Points to get the attention of others", stage_id: 6, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Shows interest in a doll or stuffed animal by pretending to feed", stage_id: 6, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Points to one body part", stage_id: 6, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Scribbles on their own", stage_id: 6, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Can follow 1-step verbal commands without any gestures; for example, sits when you say “sit down”", stage_id: 6, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Walks alone", stage_id: 6, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "May walk up steps and run", stage_id: 6, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Pulls toys while walking", stage_id: 6, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Can undress themselves", stage_id: 6, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Drinks from a cup", stage_id: 6, milestone_categories_id: 4)
+milestone.save
+
+milestone = Milestone.new(description: "Copies others, especially adults and older children", stage_id: 7, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Gets excited when with other children", stage_id: 7, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Shows more and more independence", stage_id: 7, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Shows defiant behavior (doing what they have been told not to)", stage_id: 7, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Plays mainly beside other children, but is beginning to include other children, such as in chase games", stage_id: 7, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Points to things or pictures when they are named", stage_id: 7, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Knows names of familiar people and body parts", stage_id: 7, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Says sentences with 2 to 4 words", stage_id: 7, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Follows simple instructions", stage_id: 7, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Repeats words overheard in conversation", stage_id: 7, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Points to things in a book", stage_id: 7, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Finds things even when hidden under two or three covers", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Begins to sort shapes and colors", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Completes sentences and rhymes in familiar books", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Plays simple make-believe games", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Builds towers of 4 or more blocks", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Might use one hand more than the other", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Follows two-step instructions such as “Pick up your shoes and put them in the closet.”", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Names items in a picture book such as a cat, bird, or dog", stage_id: 7, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Stands on tiptoes", stage_id: 7, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Kicks a ball", stage_id: 7, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Begins to run", stage_id: 7, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Climbs onto and down from furniture without help", stage_id: 7, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Walks up and down stairs holding on", stage_id: 7, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Throws ball overhand", stage_id: 7, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Makes or copies straight lines and circles", stage_id: 7, milestone_categories_id: 4)
+
+milestone = Milestone.new(description: "Copies adults and friends", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Shows affection for friends without prompting", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Takes turns in games", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Shows concern for crying friend", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Understands the idea of “mine” and “his” or “hers”", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Shows a wide range of emotions", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Separates easily from mom and dad", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "May get upset with major changes in routine", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Dresses and undresses self", stage_id: 8, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Follows instructions with 2 or 3 steps", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Can name most familiar things", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Understands words like “in,” “on,” and “under”", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Says first name, age, and sex", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Names a friend", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Says words like “I,” “me,” “we,” and “you” and some plurals (cars, dogs, cats)", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Talks well enough for strangers to understand most of the time", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Carries on a conversation using 2 to 3 sentences", stage_id: 8, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Can work toys with buttons, levers, and moving parts", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Plays make-believe with dolls, animals, and people", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Does puzzles with 3 or 4 pieces", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Understands what “two” means", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Copies a circle with pencil or crayon", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Turns book pages one at a time", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Builds towers of more than 6 blocks", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Screws and unscrews jar lids or turns door handle", stage_id: 8, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Climbs well", stage_id: 8, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Runs easily", stage_id: 8, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Pedals a tricycle (3-wheel bike) ", stage_id: 8, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Walks up and down stairs, one foot on each step", stage_id: 8, milestone_categories_id: 4)
+milestone.save
+
+milestone = Milestone.new(description: "Enjoys doing new things", stage_id: 9, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Plays “Mom” and “Dad” ", stage_id: 9, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Is more and more creative with make-believe play", stage_id: 9, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Would rather play with other children than themselves", stage_id: 9, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Cooperates with other children", stage_id: 9, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Often can’t tell what’s real and what’s make-believe", stage_id: 9, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Talks about what they like and what they are interested in", stage_id: 9, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Knows some basic rules of grammar, such as correctly using “he” and “she”", stage_id: 9, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Sings a song or says a poem from memory such as the “Itsy Bitsy Spider” or the “Wheels on the Bus”", stage_id: 9, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Tells stories", stage_id: 9, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Can say first and last name", stage_id: 9, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Names some colors and some numbers", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Understands the idea of counting", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Starts to understand time", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Remembers parts of a story", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Understands the idea of “same” and “different”", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Draws a person with 2 to 4 body parts", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Uses scissors", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Starts to copy some capital letters", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Plays board or card games", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Tells you what they think is going to happen next in a book", stage_id: 9, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Hops and stands on one foot up to 2 seconds", stage_id: 9, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Catches a bounced ball most of the time", stage_id: 9, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Pours, cuts with supervision, and mashes own food", stage_id: 9, milestone_categories_id: 4)
+milestone.save
+
+milestone = Milestone.new(description: "Wants to please friends", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Wants to be like friends", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "More likely to agree with rules", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Likes to sing, dance, and act", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Is aware of gender", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Can tell what’s real and what’s make-believe", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Shows more independence (for example, may visit a next-door neighbor by themselves [adult supervision is still needed])", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Is sometimes demanding and sometimes very cooperative", stage_id: 10, milestone_categories_id: 1)
+milestone.save
+milestone = Milestone.new(description: "Speaks very clearly", stage_id: 10, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Tells a simple story using full sentences", stage_id: 10, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Uses future tense; for example, “Grandma will be here.”", stage_id: 10, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Says name and address", stage_id: 10, milestone_categories_id: 2)
+milestone.save
+milestone = Milestone.new(description: "Counts 10 or more things", stage_id: 10, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Can draw a person with at least 6 body parts", stage_id: 10, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Can print some letters or numbers", stage_id: 10, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Copies a triangle and other geometric shapes", stage_id: 10, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Knows about things used every day, like money and food", stage_id: 10, milestone_categories_id: 3)
+milestone.save
+milestone = Milestone.new(description: "Stands on one foot for 10 seconds or longer", stage_id: 10, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Hops; may be able to skip", stage_id: 10, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Can do a somersault", stage_id: 10, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Uses a fork and spoon and sometimes a table knife", stage_id: 10, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Can use the toilet on their own", stage_id: 10, milestone_categories_id: 4)
+milestone.save
+milestone = Milestone.new(description: "Swings and climbs", stage_id: 10, milestone_categories_id: 4)
+milestone.save
+
+
