@@ -1,0 +1,7 @@
+@milestones.map do |milestone|
+  {
+  id: milestone.id,
+  description: milestone.description,
+  stage: milestone.stage_id, FIX THIS TO SHOW THE MONTH NAME BY ADDING AN ASSOCIATION
+  }
+end
