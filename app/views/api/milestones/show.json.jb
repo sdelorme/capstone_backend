@@ -1,0 +1,5 @@
+{
+  id: @milestone.id,
+  description: @milestone.description,
+  stage: @milestone.stage.months
+}
