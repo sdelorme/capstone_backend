@@ -1,6 +1,7 @@
 @milestones.map do |milestone|
   {
   id: milestone.id,
+  milestone_category: milestone.milestone_category.category,
   description: milestone.description,
   stage: milestone.stage.months
   }
