@@ -1,0 +1,7 @@
+@parents.map do |parent|
+  {
+  id: parent.id,
+  email: parent.email,
+  username: parent.username,
+  }
+end

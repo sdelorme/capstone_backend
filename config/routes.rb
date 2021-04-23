@@ -10,5 +10,7 @@ Rails.application.routes.draw do
     #children
     get "/children" => "children#index"
     get "/children/:id" => "children#show"
+    #parents
+    get "/users" => "users#index"
   end
 end
