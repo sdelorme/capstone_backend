@@ -1,0 +1,8 @@
+@children.map do |child|
+  {
+    id: child.id,
+    name: child.name,
+    birthdate: child.birthdate,
+    milestones: child.milestones
+  }
+end
