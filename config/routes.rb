@@ -9,8 +9,9 @@ Rails.application.routes.draw do
     get "/milestones/:id" => "milestones#show"
     #children
     get "/children" => "children#index"
-    get "/children/:id" => "children#show"
     post "/children" => "children#create"
+    get "/children/:id" => "children#show"
+    patch "/children/:id" => "children#update"
     #parents
     get "/users" => "users#index"
   end
