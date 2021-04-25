@@ -25,4 +25,10 @@ class Api::ChildrenController < ApplicationController
     @child.save
     render 'show.json.jb'
   end
+
+  def destroy
+    child = Child.find(params[:id])
+    child.destroy
+    render json: {message: "You successfully removed this child from your account"}
+  end
 end
