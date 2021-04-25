@@ -2,5 +2,10 @@
   id: @child.id,
   name: @child.name,
   birthdate: @child.birthdate,
-  milestones: @child.milestones
+  milestones: @child.milestones.map do |milestone|
+    {
+      milestone_category: milestone.milestone_category,
+      description: milestone.description,
+    }
+  end
 }
