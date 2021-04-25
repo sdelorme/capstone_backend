@@ -4,7 +4,7 @@
   birthdate: @child.birthdate,
   milestones: @child.milestones.map do |milestone|
     {
-      milestone_category: milestone.milestone_category,
+      milestone_category: milestone.milestone_category.category,
       description: milestone.description,
     }
   end
