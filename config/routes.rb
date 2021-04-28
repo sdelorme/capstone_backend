@@ -15,5 +15,9 @@ Rails.application.routes.draw do
     delete "/children/:id" => "children#destroy"
     #parents
     get "/users" => "users#index"
+    #children_milestones
+    get "/children_milestones" => "children_milestones#index"
+    post "/children_milestones" => "children_milestones#create"
+    patch "/children_milestones/:id" => "children_milestones#update"
   end
 end

@@ -1,0 +1,7 @@
+{
+  id: @children_milestone.id,
+  child_id: @children_milestone.child_id,
+  milestone_id: @children_milestone.milestone_id,
+  date_accomplished: @children_milestone.date_accomplished,
+  status: @children_milestone.status,
+}

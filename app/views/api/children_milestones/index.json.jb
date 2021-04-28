@@ -1,0 +1,9 @@
+@children_milestones.map do |milestone|
+  {
+    id: milestone.id,
+    child_id: milestone.child_id,
+    milestone_id: milestone.milestone_id,
+    date_accomplished: milestone.date_accomplished,
+    status: milestone.status,
+  }
+end
