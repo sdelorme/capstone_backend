@@ -2,16 +2,13 @@
   id: @child.id,
   name: @child.name,
   birthdate: @child.birthdate,
-  date_accomplished: @child.children_milestones.map do |milestone|
+  # children_milestones: @child.children_milestones,
+  milestones: @child.children_milestones.map do |milestone|
     {
       date_accomplished: milestone.date_accomplished,
+      milestone_category: milestone.milestone.milestone_category.category,
+      description: milestone.milestone.description,
       # status: milestone.status
-    }
-  end,
-  milestones: @child.milestones.map do |milestone|
-    {
-      milestone_category: milestone.milestone_category.category,
-      description: milestone.description,
     }
   end
 }

@@ -4,6 +4,8 @@
   milestone_category: milestone.milestone_category.category,
   description: milestone.description,
   stage: milestone.stage.months,
-  children_milestones: milestone.children_milestones,
+  # children_milestones: milestone.children_milestones,
+  status: false,
+  date: "",
   }
 end

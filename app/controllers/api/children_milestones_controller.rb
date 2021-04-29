@@ -5,14 +5,16 @@ class Api::ChildrenMilestonesController < ApplicationController
   end
 
   def create
-    params[:children_milestones].each do |c|
-      @children_milestone = ChildrenMilestone.new(
+    params[:children_milestones].each do |milestone|
+      #add conditional to accept array of objects where status is true
+      if milestone.status == true
+        @children_milestone = ChildrenMilestone.new(
         child_id: params[:child_id],
-        milestone_id: c,
-        # date_accomplished: params[:date_accomplished].to_date,
-        status: "true"
+        milestone_id: milestone.id,
+        date_accomplished: params[:date_accomplished],
       )
-      @children_milestone.save
+        @children_milestone.save
+      end
     end
     render 'show.json.jb'
   end
