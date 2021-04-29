@@ -5,7 +5,7 @@
   date_accomplished: @child.children_milestones.map do |milestone|
     {
       date_accomplished: milestone.date_accomplished,
-      status: milestone.status
+      # status: milestone.status
     }
   end,
   milestones: @child.milestones.map do |milestone|

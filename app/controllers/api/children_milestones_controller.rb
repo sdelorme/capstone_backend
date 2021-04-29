@@ -26,4 +26,10 @@ class Api::ChildrenMilestonesController < ApplicationController
     @children_milestone.save
     render 'show.json.jb'
   end
+
+  def destroy
+    children_milestone = ChildrenMilestone.find(params[:id])
+    children_milestone.destroy
+    render json: {message: "You successfully removed this milestone from your child's page"}
+  end
 end
