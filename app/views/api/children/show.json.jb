@@ -10,5 +10,6 @@
       description: milestone.milestone.description,
       # status: milestone.status
     }
-  end
+  end,
+  incomplete_milestones: @incomplete_milestones
 }

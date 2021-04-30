@@ -7,4 +7,5 @@ class Api::MilestonesController < ApplicationController
     @milestone = Milestone.find(params[:id])
     render 'show.json.jb'
   end
+
 end

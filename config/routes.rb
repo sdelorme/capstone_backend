@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     #milestones
     get "/milestones" => "milestones#index"
     get "/milestones/:id" => "milestones#show"
+
     #children
     get "/children" => "children#index"
     post "/children" => "children#create"

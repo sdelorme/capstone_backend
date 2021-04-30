@@ -1,20 +1,17 @@
 class Api::ChildrenMilestonesController < ApplicationController
   def index
-    @children_milestones = ChildrenMilestone.where(child_id: params[:child_id], status: "true")
+    @children_milestones = ChildrenMilestone.where(child_id: params[:child_id])
     render 'index.json.jb'
   end
 
   def create
     params[:children_milestones].each do |milestone|
-      #add conditional to accept array of objects where status is true
-      if milestone.status == true
-        @children_milestone = ChildrenMilestone.new(
+      @children_milestone = ChildrenMilestone.new(
         child_id: params[:child_id],
-        milestone_id: milestone.id,
-        date_accomplished: params[:date_accomplished],
+        milestone_id: milestone[:id],
+        date_accomplished: milestone[:date],
       )
-        @children_milestone.save
-      end
+      @children_milestone.save
     end
     render 'show.json.jb'
   end

@@ -15,6 +15,7 @@ class Api::ChildrenController < ApplicationController
 
   def show
     @child = Child.find(params[:id])
+    @incomplete_milestones = Milestone.all - @child.milestones
     render 'show.json.jb'
   end
 
