@@ -8,8 +8,15 @@
       date_accomplished: milestone.date_accomplished,
       milestone_category: milestone.milestone.milestone_category.category,
       description: milestone.milestone.description,
+      stage: milestone.milestone.stage.months
       # status: milestone.status
     }
   end,
-  incomplete_milestones: @incomplete_milestones
+  incomplete_milestones: @incomplete_milestones.map do |milestone|
+    {
+      milestone_category: milestone.milestone_category.category,
+      description: milestone.description,
+       stage: milestone.stage.months,
+    }
+  end
 }
