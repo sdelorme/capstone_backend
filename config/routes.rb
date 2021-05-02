@@ -7,7 +7,6 @@ Rails.application.routes.draw do
     #milestones
     get "/milestones" => "milestones#index"
     get "/milestones/:id" => "milestones#show"
-
     #children
     get "/children" => "children#index"
     post "/children" => "children#create"
@@ -16,10 +15,13 @@ Rails.application.routes.draw do
     delete "/children/:id" => "children#destroy"
     #parents
     get "/users" => "users#index"
+    post "/users" => "users#create"
     #children_milestones
     get "/children_milestones" => "children_milestones#index"
     post "/children_milestones" => "children_milestones#create"
     patch "/children_milestones/:id" => "children_milestones#update"
     delete "/children_milestones/:id" => "children_milestones#destroy"
+    #sessions
+    post "/sessions" => "sessions#create"
   end
 end
