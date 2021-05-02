@@ -2,7 +2,7 @@ class Api::ChildrenController < ApplicationController
   before_action :authenticate_user
   
   def index
-    @children = Child.all
+    @children = current_user.children
     render 'index.json.jb'
   end
 

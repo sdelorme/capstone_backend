@@ -21,6 +21,8 @@ Rails.application.routes.draw do
     post "/children_milestones" => "children_milestones#create"
     patch "/children_milestones/:id" => "children_milestones#update"
     delete "/children_milestones/:id" => "children_milestones#destroy"
+    #add child to user account
+    post "/user_children" => "user_children#create"
     #sessions
     post "/sessions" => "sessions#create"
   end
