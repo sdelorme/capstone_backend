@@ -12,7 +12,12 @@ class Api::ChildrenController < ApplicationController
       birthdate: params[:birthdate].to_date,
     )
     @child.save
-    render 'show.json.jb'
+    @user_child = UserChild.new(
+      child_id: @child[:id],
+      user_id: params[:user_id].to_i,
+    )
+    @user_child.save
+    # render 'show.json.jb'
   end
 
   def show

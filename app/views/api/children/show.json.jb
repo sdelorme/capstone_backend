@@ -5,6 +5,7 @@
   # children_milestones: @child.children_milestones,
   milestones: @child.children_milestones.map do |milestone|
     {
+      id: milestone.id,
       date_accomplished: milestone.date_accomplished,
       milestone_category: milestone.milestone.milestone_category.category,
       description: milestone.milestone.description,
@@ -14,9 +15,10 @@
   end,
   incomplete_milestones: @incomplete_milestones.map do |milestone|
     {
+      id: milestone.id,
       milestone_category: milestone.milestone_category.category,
       description: milestone.description,
-       stage: milestone.stage.months,
+      stage: milestone.stage.months,
     }
   end
 }

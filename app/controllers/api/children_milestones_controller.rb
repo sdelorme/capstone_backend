@@ -1,4 +1,6 @@
 class Api::ChildrenMilestonesController < ApplicationController
+  before_action :authenticate_user
+  
   def index
     @children_milestones = ChildrenMilestone.where(child_id: params[:child_id])
     render 'index.json.jb'
