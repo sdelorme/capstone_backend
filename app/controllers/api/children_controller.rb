@@ -10,6 +10,7 @@ class Api::ChildrenController < ApplicationController
     @child = Child.new(
       name: params[:name],
       birthdate: params[:birthdate].to_date,
+      image: params[:image],
     )
     @child.save
     @user_child = UserChild.new(
