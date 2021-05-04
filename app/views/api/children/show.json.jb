@@ -1,7 +1,8 @@
 {
   id: @child.id,
   name: @child.name,
-  birthdate: @child.birthdate,
+  birthdate: @child.birthdate.strftime("%b %d, %Y"),
+  image: @child.image,
   # children_milestones: @child.children_milestones,
   milestones: @child.children_milestones.map do |milestone|
     {

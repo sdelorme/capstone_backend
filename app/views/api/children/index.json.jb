@@ -2,6 +2,7 @@
   {
     id: child.id,
     name: child.name,
-    birthdate: child.birthdate,
+    birthdate: child.birthdate.strftime("%b %d, %Y"),
+    image: child.image,
   }
 end
