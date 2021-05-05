@@ -1,6 +1,6 @@
 class Api::MilestonesController < ApplicationController
   def index
-    @milestones = Milestone.all
+    @milestones = Milestone.all.order(id: :asc)
     render 'index.json.jb'
   end
   def show

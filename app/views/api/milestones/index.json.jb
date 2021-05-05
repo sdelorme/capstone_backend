@@ -7,5 +7,6 @@
   # children_milestones: milestone.children_milestones,
   status: false,
   date: "",
+  media: milestone.media,
   }
 end
