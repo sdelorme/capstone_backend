@@ -23,7 +23,7 @@ class Api::ChildrenController < ApplicationController
 
   def show
     @child = Child.find(params[:id])
-    @incomplete_milestones = Milestone.all - @child.milestones
+    @incomplete_milestones = Milestone.all.order(id: :asc) - @child.milestones
     render 'show.json.jb'
   end
 
