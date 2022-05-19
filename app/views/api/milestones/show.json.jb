@@ -3,5 +3,5 @@
   milestone_category: @milestone.milestone_category.category,
   description: @milestone.description,
   stage: @milestone.stage.months,
-  media: @milestone.media,
+  # media: @milestone.media,
 }
